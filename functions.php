@@ -916,6 +916,10 @@ function wpspf_service_payment_request_ajax(){
 						"x_cust_id"             => $x_cust_id,
 						"x_customer_ip"         => $_SERVER['REMOTE_ADDR'],
 
+						//Description Enhancement
+						"x_description"			=>sanitize_text_field($postData['servicetype']),
+						"x_phone"				=>sanitize_text_field($postData['phonenumber']),
+
 					);
 			
 					//Bank Account

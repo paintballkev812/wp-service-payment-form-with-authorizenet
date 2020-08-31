@@ -33,3 +33,16 @@
   100% { transform: rotate(360deg); }
 }
 .wpspf_loader_text{ float:left; }
+
+
+/* Chrome, Safari, Edge, Opera */
+input.noarrows::-webkit-outer-spin-button,
+input.noarrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number].noarrows {
+  -moz-appearance: textfield;
+}
