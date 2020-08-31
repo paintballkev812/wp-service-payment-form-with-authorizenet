@@ -695,7 +695,6 @@ function wpspf_get_paymentgateway_field_view(){
 
 		$fieldHtml .= '<option value="VISA">VISA</option>
 	                    <option value="MasterCard">MasterCard</option>
-	                    <option value="AMEX">AMEX</option>
 						<option value="Discover">Discover</option>';
 
 		if(get_option('wpspfnet_enable_check')==1){
@@ -772,7 +771,7 @@ function wpspf_get_paymentgateway_field_view(){
     $fieldHtml .='<tr><td><input type="hidden" id="spGoogleCaptchaRes" name="spGoogleCaptchaRes" value="" required="required"></td><td><div id="spGoogleCaptcha"></div></td></tr>';
 
     if(get_option('wpspfnet_enable')==1){
-	    $fieldHtml .='<tr><td></td><td style="text-align:right;padding: 10px;"><IMG src="//payments.intuit.com/payments/landing_pages/LB/default.jsp?c=VMAD&l=H&s=2&b=FFFFFF" width="235" height="35" border=0 alt="Credit Card Logos" /></td></tr>';
+	    $fieldHtml .='<tr><td></td><td style="text-align:right;padding: 10px;"><IMG src="//payments.intuit.com/payments/landing_pages/LB/default.jsp?c=VMD&l=H&s=2&b=FFFFFF" width="235" height="35" border=0 alt="Credit Card Logos" /></td></tr>';
 	}
 
     $fieldHtml .='<tr id="wpspf_submit_btn" style="display: none"><td></td><td>';
