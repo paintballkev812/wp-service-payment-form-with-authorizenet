@@ -6,10 +6,10 @@
  *
  * @wordpress-plugin
  * Plugin Name:       WP Service Payment Form With Authorize.net
- * Plugin URI:        https://github.com/shivprakash210/wp-service-payment-form-with-authorizenet
+ * Plugin URI:        https://github.com/paintballkev812/wp-service-payment-form-with-authorizenet
  * Description:       WP Service Payment Form With Authorize.net allows to accept payments from credit/debit cards and checks using Authorize.net Gateway with captcha.
- * Version:           2.2.0
- * Author:            Shiv Prakash Tiwari
+ * Version:           2.2.1B
+ * Author:            Shiv Prakash Tiwari, Paintballkev812
  * Author URI:        https://github.com/shivprakash210/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
