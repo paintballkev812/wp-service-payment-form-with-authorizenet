@@ -880,7 +880,7 @@ function wpspf_service_payment_request_ajax(){
 						"x_amount"              => floatval($postData['payment_amount']),
 						
 						"x_type"                => 'AUTH_CAPTURE',
-						"x_invoice_num"         => str_replace( "#", "", sanitize_text_field($postData['invoice_number'])),
+						//"x_invoice_num"         => str_replace( "#", "", sanitize_text_field($postData['invoice_number'])),
 						"x_test_request"        => $environment,
 						"x_delim_char"          => '|',
 						"x_encap_char"          => '',
@@ -916,7 +916,7 @@ function wpspf_service_payment_request_ajax(){
 						"x_customer_ip"         => $_SERVER['REMOTE_ADDR'],
 
 						//Description Enhancement
-						"x_description"			=>sanitize_text_field($postData['servicetype']),
+						"x_description"			=>sanitize_text_field($postData['servicetype']) . ' - ' . str_replace( "#", "", sanitize_text_field($postData['invoice_number'])),
 						"x_phone"				=>sanitize_text_field($postData['phonenumber']),
 
 					);
